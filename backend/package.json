@@ -1,0 +1,13 @@
+{
+  "name": "cryptoexchange-backend",
+  "version": "0.1.0",
+  "description": "Minimal backend skeleton for crypto exchange.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
