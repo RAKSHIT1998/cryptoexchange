@@ -24,7 +24,16 @@
       <p>Experience next-gen trading with a sleek and intuitive interface.</p>
     </section>
     <section class="panel-container">
-      <div class="panel" id="spot-panel">Spot trading panel placeholder</div>
+      <div class="panel" id="spot-panel">
+        <h2>Spot Trading</h2>
+        <form id="order-form">
+          <input type="text" id="market" placeholder="Market e.g., BTC-USDT" required />
+          <input type="number" step="any" id="amount" placeholder="Amount" required />
+          <input type="number" step="any" id="price" placeholder="Price" required />
+          <button type="submit">Place Order</button>
+        </form>
+        <pre id="order-result"></pre>
+      </div>
       <div class="panel hidden" id="futures-panel">Futures trading panel placeholder</div>
       <div class="panel hidden" id="liquidity-panel">Liquidity provider tools placeholder</div>
     </section>
