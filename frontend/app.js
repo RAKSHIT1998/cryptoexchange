@@ -61,5 +61,3 @@ document.getElementById('spot-link').addEventListener('click', () => showPanel('
 document.getElementById('futures-link').addEventListener('click', () => showPanel('futures'));
 document.getElementById('liquidity-link').addEventListener('click', () => showPanel('liquidity'));
 
-loadMarkets();
-loadOrders();
